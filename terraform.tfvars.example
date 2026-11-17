@@ -1,0 +1,12 @@
+# Copier ce fichier en terraform.tfvars puis renseigner les valeurs :
+#   cp terraform.tfvars.example terraform.tfvars
+
+# OBLIGATOIRE
+project_id             = "votre-projet-gcp"
+domain                 = "grafana.example.com"
+grafana_admin_password = "changez-moi-12-caracteres-min"
+
+# OPTIONNEL (valeurs par défaut indiquées)
+# region  = "europe-west9"
+# zone    = "europe-west9-b"
+# network = "default"

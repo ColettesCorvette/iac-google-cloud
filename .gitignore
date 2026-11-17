@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+
+# Variables sensibles
+*.tfvars
+!terraform.tfvars.example
+
+# Fichiers système
+.DS_Store
+*.swp
+*.swo
